@@ -9,7 +9,7 @@ on:
 
 # Set your image name here (username/repo). You can edit the repo part.
 env:
-  IMAGE_NAME: docker.io/${{ secrets.DOCKERHUB_USERNAME }}/github-actionapp
+  IMAGE_NAME: docker.io/${{ secrets.DOCKERHUB_USERNAME }}/github-action-app
 
 jobs:
   build-and-push:
