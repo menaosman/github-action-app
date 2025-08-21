@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-IMAGE="${1:-local/github-action-app:test}"
+IMAGE="${1:-local/github-actionapp:test}"
 PORT="${PORT:-3000}"
 
 echo "Building image: $IMAGE"
