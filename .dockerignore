@@ -1,0 +1,16 @@
+# Ignore files not needed in the Docker image
+node_modules
+npm-debug.log
+yarn.lock
+.yarn
+.pnpm-store
+.cache
+.git
+.github
+.DS_Store
+*.log
+.env
+coverage
+tests
+__pycache__
+*.pyc
